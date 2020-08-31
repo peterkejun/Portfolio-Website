@@ -1,0 +1,32 @@
+.code-snippet-wrapper {
+    text-align: left;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 27px;
+    font-family: menlo;
+}
+
+.code-snippet-wrapper .tab {
+    padding-left: 2rem;
+}
+
+.code-snippet-wrapper .declarator {
+    color: #3B98D4;
+}
+
+.code-snippet-wrapper .variable {
+    color: #DCDDA4;
+}
+
+.code-snippet-wrapper .symbol {
+    color: rgba(212, 212, 212, 0.9);
+}
+
+.code-snippet-wrapper .key {
+    color: #89DEFF;
+}
+
+.code-snippet-wrapper .string {
+    color: #D88E73;
+}
+

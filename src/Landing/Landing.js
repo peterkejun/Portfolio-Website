@@ -1,13 +1,17 @@
 import React from 'react';
 
+// components
 import CodeSnippet from 'CodeSnippet/CodeSnippet';
 
+// styles
 import './Landing.css';
 
+// images
 import linkedin from 'img/linkedin.svg';
 import github from 'img/github.svg';
-import javascript from 'img/javascript.svg';
+import awsSaa from 'img/aws_saa.png';
 
+// description object for code snippet
 const peter = {
     lang: [
         'javascript', 'typescript', 'python', 'swift', 'java', 'bash',
@@ -26,6 +30,9 @@ const peter = {
             'Mocha',
         ],
     },
+    cert: [
+        'AWS Certified Solutions Architect - Associate',
+    ],
 };
 
 const Landing = () => (
@@ -40,14 +47,14 @@ const Landing = () => (
                 <a href="https://github.com/peterkejun" target="_blank" rel="noopener noreferrer">
                     <img alt="GitHub" src={github} />
                 </a>
+                <div />
+                <a href="https://www.youracclaim.com/badges/6cce4ac8-48ff-411b-9ef9-eb9a6e2a847e/linked_in_profile" target="_blank" rel="noopener noreferrer">
+                    <img alt="AWS SAA Cert" src={awsSaa} />
+                </a>
             </span>
         </div>
         <div>
-            <div>
-                <CodeSnippet declarator="var" variable="peter" object={peter} />
-                <img src={javascript} alt="javascript" />
-            </div>
-            <div />
+            <CodeSnippet declarator="var" variable="peter" object={peter} />
         </div>
     </div>
 );

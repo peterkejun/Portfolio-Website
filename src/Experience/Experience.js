@@ -8,9 +8,15 @@ const experiences = [
         title: 'University of Waterloo',
         date: 'September 2019 - Now',
         position: 'Software Engineering 2A',
-        descriptions: [],
-        variable: 'temp',
-        object: {},
+        descriptions: [
+            'Worked on some projects...',
+        ],
+        variable: 'projects',
+        object: {
+            AnimatedCanvas: [
+                'An animation framework for native HTML canvas, pure JS, no dependencies.',
+            ],
+        },
     },
     {
         title: 'Intrigue Media',

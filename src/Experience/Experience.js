@@ -14,7 +14,7 @@ const experiences = [
         variable: 'projects',
         object: {
             AnimatedCanvas: [
-                'An animation framework for native HTML canvas, pure JS, no dependencies.',
+                'A declarative, customizable, and observable animation framework for the HTML canvas, with hit tests and lifecycle subscriptions.',
             ],
         },
     },
@@ -33,8 +33,8 @@ const experiences = [
     },
     {
         title: 'Horizon AI',
-        date: 'April 2020 - Now',
-        position: 'Software Team Lead Developer',
+        date: 'Feb 2020 - Now',
+        position: 'Software Engineering Team Lead',
         descriptions: [
             'Lead the software team to produce progressive solutions in 2-week sprints.',
             'Develop cloud-native web architecture that supports real-time streaming, OAuth2 authorization, permission-based access management.',

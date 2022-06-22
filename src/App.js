@@ -1,13 +1,15 @@
 import React from 'react';
 import './App.css';
-import Experience from 'Experience/Experience';
 import Landing from './Landing/Landing';
+import Work from 'Work/Work';
+import Education from 'Education/Education';
 
 function App() {
     return (
         <div className="App">
             <Landing />
-            <Experience />
+            <Education />
+            <Work />
         </div>
     );
 }

@@ -11,29 +11,7 @@ import linkedin from 'img/linkedin.svg';
 import github from 'img/github.svg';
 import awsSaa from 'img/aws_saa.png';
 
-// description object for code snippet
-const peter = {
-    lang: [
-        'javascript', 'typescript', 'python', 'swift', 'java', 'bash',
-    ],
-    cloud: [
-        'AWS', 'MongoDB Atlas', 'Confluent Kafka',
-    ],
-    dev: {
-        ops: [
-            'git', 'Docker', 'Jira',
-        ],
-        doc: [
-            'Swagger', 'JSDoc', 'Confluence',
-        ],
-        test: [
-            'Mocha',
-        ],
-    },
-    cert: [
-        'AWS Certified Solutions Architect - Associate',
-    ],
-};
+import peter from './data';
 
 const Landing = () => (
     <div id="landing-wrapper">

@@ -20,7 +20,7 @@ const Landing = () => {
     }
     return <div id="landing-wrapper">
         <div>
-            <h1>Peter Ke</h1>
+            <h1>Peter (Jun) Ke</h1>
             <p className="subtitle1">Software Engineering student in the University of Waterloo, specialized in application development and cloud computing.</p>
             <span>
                 <a href="https://www.linkedin.com/in/peterkejun/" target="_blank" rel="noopener noreferrer">

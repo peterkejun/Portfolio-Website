@@ -10,11 +10,15 @@ import './Landing.css';
 import linkedin from 'img/linkedin.svg';
 import github from 'img/github.svg';
 import awsSaa from 'img/aws_saa.png';
+import resume from 'img/resume.png';
 
 import peter from './data';
 
-const Landing = () => (
-    <div id="landing-wrapper">
+const Landing = () => {
+    const onResume = () => {
+        window.open('/resume_peter_ke.pdf');
+    }
+    return <div id="landing-wrapper">
         <div>
             <h1>Peter Ke</h1>
             <p className="subtitle1">Software Engineering student in the University of Waterloo, specialized in application development and cloud computing.</p>
@@ -24,6 +28,9 @@ const Landing = () => (
                 </a>
                 <a href="https://github.com/peterkejun" target="_blank" rel="noopener noreferrer">
                     <img alt="GitHub" src={github} />
+                </a>
+                <a onClick={onResume} target="_blank" rel="noopener noreferrer">
+                    <img id="resume-png" alt="Resume" src={resume} />
                 </a>
                 <div />
                 <a href="https://www.youracclaim.com/badges/6cce4ac8-48ff-411b-9ef9-eb9a6e2a847e/linked_in_profile" target="_blank" rel="noopener noreferrer">
@@ -35,6 +42,6 @@ const Landing = () => (
             <CodeSnippet declarator="var" variable="peter" object={peter} />
         </div>
     </div>
-);
+};
 
 export default Landing;

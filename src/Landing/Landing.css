@@ -74,6 +74,11 @@
     align-items: stretch;
 }
 
+#landing-wrapper #resume-png {
+    width: 27px;
+    cursor: pointer;
+}
+
 @media (max-width: 1024px) {
     #landing-wrapper {
         background: none;

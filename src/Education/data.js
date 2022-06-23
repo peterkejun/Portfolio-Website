@@ -3,15 +3,20 @@ const education = [
         title: 'University of Waterloo',
         date: 'September 2019 - April 2024',
         position: 'B.S. Software Engineering',
-        descriptions: [
-            'Worked on some projects...',
-        ],
-        variable: 'projects',
+        variable: 'academics',
         object: {
-            AnimatedCanvas: [
-                'A declarative, customizable, and observable animation framework for the HTML canvas, with hit tests and lifecycle subscriptions.',
-            ],
+            GPA: '3.9 / 4.0',
+            degree: 'Bachelor of Software Engineering',
+            program: 'Software Engineering Honors Co-op',
+            couses: [
+                'CS341 Algorithms',
+                'CS240 Data Structures and Data Management',
+                'SE350 Operating Systems',
+                'CS247 Software Engineering Principles',
+                'CS348 Database Management',
+            ]
         },
+        fullWidth: true,
     }
 ];
 

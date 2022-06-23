@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import CodeSnippet from 'CodeSnippet/CodeSnippet';
 
 const Description = ({ text }) => (
@@ -22,7 +22,9 @@ const ExperienceCard = ({ experience }) => {
         {experience.location && <p className="subtitle2">{experience.location}</p>}
         <p className="subtitle2">{experience.date}</p>
         <p className="subtitle1">{experience.position}</p>
-        {experience.descriptions.map((description, i) => <Description text={description} key={i} />)}
+        {experience.descriptions && <Fragment>
+            {experience.descriptions.map((description, i) => <Description text={description} key={i}/>)}
+        </Fragment>}
         <CodeSnippet declarator="var" variable={experience.variable} object={experience.object} />
     </div>
 };

@@ -8,7 +8,7 @@ const education = [
             GPA: '3.9 / 4.0',
             degree: 'Bachelor of Software Engineering',
             program: 'Software Engineering Honors Co-op',
-            couses: [
+            courses: [
                 'CS341 Algorithms',
                 'CS240 Data Structures and Data Management',
                 'SE350 Operating Systems',

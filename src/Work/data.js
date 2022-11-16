@@ -6,12 +6,14 @@ const work = [
         location: 'San Francisco, CA',
         descriptions: [
             'Improved the LiveRamp Data Marketplace platform for data monetization, with billions of requests a day and 80+ PB of data.',
-            'Enhanced data discoverability by writing custom ElasticSearch analyzers, integrating a knowledge graph, and using geolocations.',
-            'Built a near real-time FluentD pipeline to ETL data from MySQL to ElasticSearch.'
+            'Enhanced search relevancy using Elasticsearch text analysis and NLP word embeddings with BERT.',
+            'Built a Change Data Capture ETL pipeline to denormalize ~10 GB data per day with FluentD into Elasticsearch.',
+            'Increased LiveRamp Data Marketplace click-to-purchase rate from 33% to 50% by improving search function.',
         ],
         variable: 'Tech',
         object: [
             'ElasticSearch',
+            'Word Embeddings (BERT)',
             'FluentD',
             'MySQL',
             'DataDog',
